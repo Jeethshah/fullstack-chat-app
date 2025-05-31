@@ -24,7 +24,8 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // Change this to your frontend domain on production
+    origin: ["https://deploy-mern-1whq.vercel.app"], // Change this to your frontend domain on production
+    methods: ["POST","GET"],
     credentials: true,
   })
 );
