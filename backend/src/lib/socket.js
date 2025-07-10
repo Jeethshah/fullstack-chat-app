@@ -7,7 +7,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: ["https://fullstack-chat-app-1-6egn.onrender.com"], // Updated to deployed frontend URL
+    origin: "https://fullstack-chat-app-1-6egn.onrender.com", // Use string, not array
   },
 });
 
