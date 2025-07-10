@@ -24,7 +24,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // Change this to your frontend domain on production
+    origin: "https://fullstack-chat-app-1-6egn.onrender.com", // Updated to deployed frontend URL
     credentials: true,
   })
 );
